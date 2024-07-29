@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form creation</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form>
+        <label>Firstname:</label>
+        <input type="text"
+        placeholder="Enter your name"
+        required ><br>
+        <labal>Lastname:</labal>
+        <input type="text"
+        placeholder="Enter your Lastname" title="It's your father name"><br>
+        <labal>Email:</labal>
+        <input type="email"><br>
+        <labal>password:</labal>
+        <input type="password" pattern="(?-.*/d)(?-.*[a-z])(?-.*[A-Z]).{8,}"
+        title="Must type 8 characters"><br>
+
+        <labal>url:</labal>
+        <input type="url"><br>
+        <labal>Age:</labal>
+        <input type="number"><br>
+        <labal>Grnder:</labal>
+        <input type="radio">Male
+        <input type="radio">female <br>
+        <labal>Choose your course:</labal>
+        <input type="checkbox">FSD
+        <input type="checkbox">DSML
+        <input type="checkbox">AI
+
+
+        <br>
+        <labal>City:</labal>
+        <select>
+            <option>Choose your city</option>
+            <option>tirppur</option>
+            <option>chenni</option>
+            <option>palani</option>
+        </select>
+        <labal>DOB</labal>
+        <input type="date"><br>
+        <br>
+        <labal>Address:</labal>
+        <textarea row="5">
+        </textarea>
+
+
+
+
+        <button>submit</button>
+
+
+
+
+
+    </form>
+    
+</body>
+</html>

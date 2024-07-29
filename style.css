@@ -1,0 +1,52 @@
+\*
+{
+    margin: 0;
+    padding: 0;
+}
+.showcase
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.video-container
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+} .video-content
+{
+    z-index:1;
+    color: white;
+}
+.video-content h1{
+    font-size: 30px;
+}
+.video-content a{
+    color: white;
+    font-size: 20px;
+    background-color: navy;
+    padding: 10px;
+    text-decoration: none;
+}
+.video-content a:hover{
+    text-decoration: underline;
+}
+.right h1
+{
+    color: darkgreen;
+}
+.right p::first-letter
+{
+    font-size: 50px;
+    color: darkblue;
+}
+.right p
+{
+    text-indent: 50px;
+}
+.foot
+{
+    text-align: center;
+}
